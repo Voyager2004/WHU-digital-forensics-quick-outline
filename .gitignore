@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# 教材与提取数据，绝不提交
+数字取证教材*
+数字取证教材_retrieval/
+*_教材*
+*.jsonl
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*_clean.md
+toc_extracted.md
+detected_headings.md
+chunks_preview.md
+manifest.json
+
+# 课后题、答案与本地作业资料
+*课后题*
+*参考答案*
+*作业*
+提交版本/
+
+# 默认忽略临时渲染物；保留公开发行版
+build/
+rendered*/
+*.pdf
+*.docx
+!dist/*.docx
+
